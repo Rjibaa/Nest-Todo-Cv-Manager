@@ -1,4 +1,4 @@
-import { UserEntity } from "src/user/entities/user.entity/user.entity";
+import { UserEntity } from "../../user/entities/user.entity/user.entity";
 import { StatusEnum } from "../../Generics/status.enum";
 import { TimestampEntites } from "../../Generics/timestamp.entities";
 import { Column, CreateDateColumn, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";

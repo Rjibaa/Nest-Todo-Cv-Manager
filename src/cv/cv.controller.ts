@@ -1,6 +1,7 @@
 import { Body, Controller, Delete, Get, Param, ParseIntPipe, Patch, Post, Put } from '@nestjs/common';
 import { CvService } from './cv.service';
 import { AddCvDto } from './dto/add-cv.dto';
+import { AuthGuard } from 'src/user/Guard/user.gard';
 
 @Controller('cv')
 export class CvController {

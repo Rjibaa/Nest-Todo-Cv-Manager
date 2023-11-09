@@ -1,7 +1,7 @@
 import { type } from "os";
 import { CvEntity } from "../../../cv/entities/cv.entity/cv.entity";
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
-import { TodoEntity } from "src/todo/entities/todo.entity";
+import { TodoEntity } from "../../../todo/entities/todo.entity";
 
 @Entity('user')
 export class UserEntity {
