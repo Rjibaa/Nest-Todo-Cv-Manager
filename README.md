@@ -50,20 +50,20 @@ This repository contains the backend code for managing todos and CVs using NestJ
 
 1. Clone the repository:
    ```bash
-      git clone https://github.com/Rjibaa/nest-todo-cv-manager.git.
+   git clone https://github.com/Rjibaa/nest-todo-cv-manager.git.
    ```
 2. Install dependencies:
    ```bash
-     $ cd nest-todo-cv-manager
-     $ npm install
+   $ cd nest-todo-cv-manager
+   $ npm install
    ``` 
 3. Start the backend server:
    ```bash
-      $ npm start
+   $ npm start
    ```
 4. Seed the database:
    ```bash
-         $ npm run seed
+   $ npm run seed
    ```
 5. Access the API endpoints for managing todos and CVs as needed.
 
